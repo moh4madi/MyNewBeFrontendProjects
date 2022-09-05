@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  width: 1440px;
+  background-color: hsl(212, 45%, 89%);
+  font-family:outfit;
+}
+@font-face {
+  font-family: outfit;
+  src: url("../fonts/Outfit-Black.ttf");
+  src: url("../fonts/Outfit-Bold.ttf") ;
+
+}
+.one {
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  border-radius: 20px;
+}
+.img1 {
+  margin: auto;
+  position: absolute;
+  height: 400px;
+  padding: 20px;
+  float: right;
+}
+.img1 img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+.text {
+  text-align: center;
+}
+.text p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
